@@ -1,0 +1,8 @@
+<p>Hello {{name}}</p>
+
+<!-- <button (click)="outputChild.sayHello()">Click !</button>
+  <app-output-child (nameChanged)="onNameChanged($event)" #outputChild></app-output-child> -->
+
+
+<button (click)="callSayHello()">Click viewChild!</button>
+<app-output-child (nameChanged)="onNameChanged($event)"></app-output-child>
